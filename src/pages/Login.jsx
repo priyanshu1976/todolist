@@ -37,7 +37,9 @@ function Example() {
         userData.userPass
       );
       const user = userCredential.user;
-      islogin(!bool);
+      console.log(user);
+      islogin(true);
+      navigate("/login/mainboard"); // Navigate to the nested route
     } catch (error) {
       // Handle login error
       alert("Incorrect email or password. Please try again.");

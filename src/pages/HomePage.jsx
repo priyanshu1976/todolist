@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { database } from "/src/fireBaseConfig"; // Adjust the import path if necessary
 import { doc, getDoc, updateDoc } from "firebase/firestore";

@@ -290,18 +290,14 @@
 
 @media screen and (max-width: 448px) {
   .setting {
-    left: 0px;
-    padding: 0px 23px;
+    display: none;
   }
 
-  .settingcon {
-    height: 400px;
-    width: 303px;
-  }
   .button {
     padding: 9px;
     text-transform: uppercase;
     min-width: 100px;
+
     font-size: 12px;
     margin-left: 120px;
     border-top-right-radius: 20px;
