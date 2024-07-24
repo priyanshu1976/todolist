@@ -40,8 +40,8 @@ function Example() {
       );
       const user = userCredential.user;
 
-      const userDocRef = doc(database, "users", user.uid);
-      await setDoc(userDocRef, {
+      const db = doc(database, "users", user.uid);
+      await setDoc(db, {
         Name: userData.name,
         Email: userData.userEmail,
         PhoneNumber: userData.phoneNumber,
